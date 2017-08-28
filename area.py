@@ -1,6 +1,13 @@
+# This programme is uded to find the volume of cuboid , perimeter of rectangle 
+# areas of circle , square , triangle .
+
+
+
 import math
 
 def area(a, b):
+	""" This function finds the 
+	area of the rectangle"""	
     c = a * b
     return c
 
@@ -24,11 +31,11 @@ def area_of_square (a):
 	return c
 
 print "Type ok to go ahead !"
-begin = raw_input("Here you can find the area of rectangle , volume of cuboid , perimeter of retangle , area of square  !:")
+begin = raw_input("Here you can find the area of rectangle , volume of cuboid , perimeter of retangle , area of square  , area of circle , area of triangle !:")
 
 if begin == "ok":
     print "put all the values in centimeters"
-
+	# Getting inputs from the user
     length = input("length of object: ")
     breadth = input("breadth of object: ")
     height = input("height of object: ")
@@ -52,13 +59,13 @@ if begin == "ok":
         print "volume of cuboid:", volume(length, breadth, height)
  
     elif choice in {"3"}:
-	print "perimeter of square :" , perimeter(length, breadth)
+		print "perimeter of square :" , perimeter(length, breadth)
 
     elif choice in {"4"}:
-	print "area of circle:" , area_of_circle(radius)
+		print "area of circle:" , area_of_circle(radius)
 	
     elif choice in {"5"}:
-	print "area of Triangle:" , area_of_triangle( height , base)
+		print "area of Triangle:" , area_of_triangle( height , base)
 
     elif choice in {"6"}:
 		print "area_of_square:" , area_of_square(side)
