@@ -4,10 +4,8 @@
 
 
 import math
-
-def area(a, b):
-	""" This function finds the 
-	area of the rectangle"""	
+# This function finds the
+def area(a, b): 	
     c = a * b
     return c
 

@@ -1,4 +1,8 @@
+#
+
+
 count = 0
+
 
 print "Welcome to my Quiz"
 print "\nIf you submit the correct answer then\nyou will get 5 marks and if its wrong\nanswer then 5 marks will be detected from your total\n"
