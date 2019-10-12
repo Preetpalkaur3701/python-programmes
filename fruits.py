@@ -1,0 +1,13 @@
+a=int(input("enter quantity of mango"))
+b=int(input("enter quantity of pears"))
+c=int(input("enter quantity of apple"))
+d=int(input("enter quantity of grapes"))
+bill=(70*a+60*b+100*c+50*d)
+print("bill without gst=",bill)
+e=(70*a+5/100*a*70)
+f=(60*b+5/100*b*60)
+g=(100*c+5/100*c*100)
+h=(50*d+5/100*d*50)
+billgst=(e+f+g+h)
+print("bill with gst=",billgst)
+
